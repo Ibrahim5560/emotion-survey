@@ -1,0 +1,83 @@
+/**
+ * System (system) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity System {
+	nameAr String
+	nameEn String
+	code String
+	status Integer	
+}
+/**
+ * SystemServices (system_services) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity SystemServices {
+	nameAr String
+	nameEn String
+	code String
+	status Integer		
+}
+/**
+ * Center (center) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity Center {
+	nameAr String
+	nameEn String
+	code String
+	status Integer	
+}
+/**
+ * Users (users) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity Users {
+	nameAr String
+	nameEn String
+	code String
+	status Integer	
+}
+/**
+ * Messages (messages) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity Messages {
+	counter Long
+	trsId Long
+	userId Long
+	message String
+	status Integer		
+	applicantName String
+}
+/**
+ * MessageFeedback (message_feedback) entity.
+ * @author Ibrahim Hassanin.
+ */
+entity MessageFeedback {
+	systemId Long
+	centerId Long
+	systemServicesId Long
+	counter Long
+	trsId Long
+	userId Long
+	message String
+	status Integer		
+	feedback String
+	applicantName String
+}
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Center {centerMessages} to Messages
+	System {systemMessages} to Messages
+	SystemServices {systemServicesMessages} to Messages
+    System {systemServices} to SystemServices
+	Users {usersMessages} to Messages
+}
+// Set pagination options
+paginate * with pagination
+// Use Data Transfert Objects (DTO)
+dto * with mapstruct
+// Set service options 
+service all with serviceImpl
+filter all
