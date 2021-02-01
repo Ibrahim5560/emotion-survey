@@ -1,0 +1,27 @@
+{
+  "emotionSurveyApp": {
+    "systemServices": {
+      "home": {
+        "title": "System Services",
+        "createLabel": "Create a new System Services",
+        "createOrEditLabel": "Create or edit a System Services",
+        "notFound": "No System Services found"
+      },
+      "created": "A new System Services is created with identifier {{ param }}",
+      "updated": "A System Services is updated with identifier {{ param }}",
+      "deleted": "A System Services is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete System Services {{ id }}?"
+      },
+      "detail": {
+        "title": "System Services"
+      },
+      "nameAr": "Name Ar",
+      "nameEn": "Name En",
+      "code": "Code",
+      "status": "Status",
+      "systemServicesMessages": "System Services Messages",
+      "system": "System"
+    }
+  }
+}

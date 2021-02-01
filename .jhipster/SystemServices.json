@@ -1,0 +1,48 @@
+{
+  "name": "SystemServices",
+  "fields": [
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "messages",
+      "otherEntityRelationshipName": "systemServices",
+      "relationshipName": "systemServicesMessages"
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "system",
+      "otherEntityRelationshipName": "systemServices",
+      "relationshipName": "system",
+      "otherEntityField": "id"
+    }
+  ],
+  "changelogDate": "20210201054308",
+  "javadoc": "SystemServices (system_services) entity.\\n@author Ibrahim Hassanin.",
+  "entityTableName": "system_services",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

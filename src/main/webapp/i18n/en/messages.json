@@ -1,0 +1,31 @@
+{
+  "emotionSurveyApp": {
+    "messages": {
+      "home": {
+        "title": "Messages",
+        "createLabel": "Create a new Messages",
+        "createOrEditLabel": "Create or edit a Messages",
+        "notFound": "No Messages found"
+      },
+      "created": "A new Messages is created with identifier {{ param }}",
+      "updated": "A Messages is updated with identifier {{ param }}",
+      "deleted": "A Messages is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Messages {{ id }}?"
+      },
+      "detail": {
+        "title": "Messages"
+      },
+      "counter": "Counter",
+      "trsId": "Trs Id",
+      "userId": "User Id",
+      "message": "Message",
+      "status": "Status",
+      "applicantName": "Applicant Name",
+      "center": "Center",
+      "system": "System",
+      "systemServices": "System Services",
+      "users": "Users"
+    }
+  }
+}

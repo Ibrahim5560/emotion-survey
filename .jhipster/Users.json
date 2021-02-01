@@ -1,0 +1,41 @@
+{
+  "name": "Users",
+  "fields": [
+    {
+      "fieldName": "nameAr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "nameEn",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "code",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "Integer"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "messages",
+      "otherEntityRelationshipName": "users",
+      "relationshipName": "usersMessages"
+    }
+  ],
+  "changelogDate": "20210201054508",
+  "javadoc": "Users (users) entity.\\n@author Ibrahim Hassanin.",
+  "entityTableName": "users",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": "*"
+}

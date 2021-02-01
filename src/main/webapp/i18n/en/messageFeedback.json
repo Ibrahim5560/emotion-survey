@@ -1,0 +1,31 @@
+{
+  "emotionSurveyApp": {
+    "messageFeedback": {
+      "home": {
+        "title": "Message Feedbacks",
+        "createLabel": "Create a new Message Feedback",
+        "createOrEditLabel": "Create or edit a Message Feedback",
+        "notFound": "No Message Feedbacks found"
+      },
+      "created": "A new Message Feedback is created with identifier {{ param }}",
+      "updated": "A Message Feedback is updated with identifier {{ param }}",
+      "deleted": "A Message Feedback is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Message Feedback {{ id }}?"
+      },
+      "detail": {
+        "title": "Message Feedback"
+      },
+      "systemId": "System Id",
+      "centerId": "Center Id",
+      "systemServicesId": "System Services Id",
+      "counter": "Counter",
+      "trsId": "Trs Id",
+      "userId": "User Id",
+      "message": "Message",
+      "status": "Status",
+      "feedback": "Feedback",
+      "applicantName": "Applicant Name"
+    }
+  }
+}

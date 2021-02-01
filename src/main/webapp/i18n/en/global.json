@@ -7,6 +7,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entities",
+        "system": "System",
+        "systemServices": "System Services",
+        "center": "Center",
+        "users": "Users",
+        "messages": "Messages",
+        "messageFeedback": "Message Feedback",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

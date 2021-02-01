@@ -47,6 +47,17 @@ public class CacheConfiguration {
             createCache(cm, com.isoft.emotion.domain.User.class.getName());
             createCache(cm, com.isoft.emotion.domain.Authority.class.getName());
             createCache(cm, com.isoft.emotion.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.isoft.emotion.domain.System.class.getName());
+            createCache(cm, com.isoft.emotion.domain.System.class.getName() + ".systemMessages");
+            createCache(cm, com.isoft.emotion.domain.System.class.getName() + ".systemServices");
+            createCache(cm, com.isoft.emotion.domain.SystemServices.class.getName());
+            createCache(cm, com.isoft.emotion.domain.SystemServices.class.getName() + ".systemServicesMessages");
+            createCache(cm, com.isoft.emotion.domain.Center.class.getName());
+            createCache(cm, com.isoft.emotion.domain.Center.class.getName() + ".centerMessages");
+            createCache(cm, com.isoft.emotion.domain.Users.class.getName());
+            createCache(cm, com.isoft.emotion.domain.Users.class.getName() + ".usersMessages");
+            createCache(cm, com.isoft.emotion.domain.Messages.class.getName());
+            createCache(cm, com.isoft.emotion.domain.MessageFeedback.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }

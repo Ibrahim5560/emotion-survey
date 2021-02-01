@@ -1,0 +1,26 @@
+{
+  "emotionSurveyApp": {
+    "center": {
+      "home": {
+        "title": "Centers",
+        "createLabel": "Create a new Center",
+        "createOrEditLabel": "Create or edit a Center",
+        "notFound": "No Centers found"
+      },
+      "created": "A new Center is created with identifier {{ param }}",
+      "updated": "A Center is updated with identifier {{ param }}",
+      "deleted": "A Center is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Center {{ id }}?"
+      },
+      "detail": {
+        "title": "Center"
+      },
+      "nameAr": "Name Ar",
+      "nameEn": "Name En",
+      "code": "Code",
+      "status": "Status",
+      "centerMessages": "Center Messages"
+    }
+  }
+}
